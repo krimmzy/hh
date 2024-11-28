@@ -233,6 +233,21 @@ header {
     margin: 20px auto;
   }
 
+.rating-section {
+  padding-bottom: 0px;
+}
+.trustpilot {
+  padding-top: 0px;
+  padding-bottom: 0px;
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+.security-info {
+  padding-bottom: 0px;
+  margin-bottom: 0px;
+}
+
 .cta-buttons1 {
   margin-top: 30px;
 }
@@ -824,4 +839,61 @@ header {
 .okk {
   padding: 40px;
   background-color: #333;
+}
+
+.sectionn {
+  padding-top: 20px;
+  max-width: 400px;
+  padding-bottom: 0px;
+}
+
+.containerr {
+  display: flex;
+  flex-direction: column;
+  align-items: left;
+  gap: 1px;
+  padding: 20px;
+  background-color: white;
+  padding-top: 0px;
+  margin-top: 0px;
+}
+
+.rectanglee {
+  width: 80%;
+  /* background-color: #add8e6;
+  border: 2px solid #0056b3;
+  border-radius: 10px; */
+  padding: 5px;
+  text-align: left;
+  cursor: pointer;
+  position: static;
+  transition: transform 0.3s ease;
+}
+
+.rectanglee:hover {
+  transform: scale(1.03);
+
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+}
+
+.play-buttonn {
+  width: 20px;
+  height: 20px;
+}
+
+.textr {
+  font-size: 16px;
+  color:#0056b3;
+  font-weight: bold;
+}
+
+.play-icon {
+  margin-top: 0px;
+  width: 40px;
+  height: auto;
 }
